@@ -13,7 +13,7 @@ function App() {
 
   // Fetch quiz questions from the backend when the app loads
   useEffect(() => {
-    fetch("https://quiz-app-backend.onrender.com/api/questions")
+    fetch("https://quiz-app-backend-b7u3.onrender.com/api/questions")
     .then((response) => response.json())
     .then((data) => {
       setQuestions(data); // Set the questions
